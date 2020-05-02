@@ -101,12 +101,13 @@ export GOVC_DATACENTER=Datacenter
 
 6- *Let's make pre-setup to connect to VMware vCenter and create Json script on it:*
 ```
- govc import.spec photon-3-v1.17.3_vmware.2.ova | jq '.Name="photon-3-v1.17.3_vmware.2"' | jq '.NetworkMapping[0].Network="DR-Overlay"' > photon-3-v1.17.3_vmware.1.json
+ govc import.spec photon-3-v1.17.3_vmware.2.ova | jq '.Name="photon-3-v1.17.3_vmware.2"' | jq '.Name="photo0].Network="VM-Network"' > photon-3-v1.17.3_vmware.1.json
 ```
+
 
 7- Import the Photon OVA file to vCenter by JSON script;
 ```
-govc import.ova -options=photon-3-v1.17.3_vmware.2.json photon-3-v1.17.3_vmware.2.ova
+govc import.ova -options=photon-3-v1.17.3_vmware.1.json photon-3-v1.17.3_vmware.2.ova
 ```
 
   ![aws-diagram](images/3.JPG)
