@@ -31,7 +31,7 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
 - PuttyGen
 
 
-1.2)*Links for Pre-Requisites:*
+1.2) *Links for Pre-Requisites:*
 
   -	Install latest version of  [Git bash](https://git-scm.com/downloads)
   -	Install latest version of [VMware Workstation](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
