@@ -225,7 +225,7 @@ tkg get cluster
 
 ```
 NAME                                                STATUS    ROLES    AGE     VERSION
-Hello-Tanzu-From-Kerem   					         Ready    master   18h   v1.18+vmware.1
+Hello-Tanzu-From-Kerem   			Ready    master   18h   v1.18+vmware.1
 Hello-Tanzu-From-Kerem-md-0-87y3t6p011-u2gbz         Ready    <none>   18h   v1.18+vmware.1
 Hello-Tanzu-From-Kerem-md-0-87y3t6p011-hka5o   		 Ready    <none>   18h   v1.18+vmware.1
 Hello-Tanzu-From-Kerem-md-0-87y3t6p011-km7rx   		 Ready    <none>   18h   v1.18+vmware.1
