@@ -17,7 +17,7 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
 
 ## Pre-Requisites
 
-1.1) *Introductions:*
+1.1) **Introductions:**
 
 - Ubuntu or RedHat Linux Server (I prefer to have it but you can go on Windows10 if you wonder)
 - VMware Tanzu "TKG-CLI" will be installed
@@ -31,7 +31,7 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
 - PuttyGen
 
 
-1.2) *Links for Pre-Requisites:*
+1.2) **Links for Pre-Requisites:**
 
   -	Install latest version of  [Tanzu Kubernetes Grid CLI Tool and OVA Files](https://my.vmware.com/group/vmware/info/slug/infrastructure_operations_management/vmware_tanzu_kubernetes_grid/1_x)
   -	Install latest version of [VMware vSphere ESXi 7](https://www.vmware.com/go/download-vsphere)
@@ -64,14 +64,14 @@ root@keremcontrollervm:/home/keremc# mv govc_linux_amd64 /usr/local/bin/govc
 
   ![aws-diagram](images/3_govc.JPG)
 
-3- *Install Tanzu TKG Tool for Linux :*
+3- **Install Tanzu TKG Tool for Linux :**
 ```
 wget https://github.com/vmware/govmomi/releases/download/tkg-linux-amd64-v1.0.0_vmware.1.gz
 
 **Follow the above same-steps as Govc
 ```
 
-4- Create Docker Container on Your Linux VM for the Tanzu TKG installation on the vCenter vSphere for Boot-Strap Process;
+4- **Create Docker Container on Your Linux VM for the Tanzu TKG installation on the vCenter vSphere for Boot-Strap Process;**
 ```
 $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
@@ -123,7 +123,7 @@ This message shows that your installation appears to be working correctly !!
 ```
 
 
-5- *Create a Blank-Text with *.json script file :*
+5- **Create a Blank-Text with *.json script file :**
 ```
 root@keremcontrollervm:/home/keremc# cat keremvc.gov
 export GOVC_URL=https://192.168.1.3
@@ -135,18 +135,18 @@ export GOVC_RESOURCE_POOL='*/Resources'
 export GOVC_DATACENTER=Datacenter
 ```
 
-6- *Let's make pre-setup to connect to VMware vCenter and create Json script on it:*
+6- **Let's make pre-setup to connect to VMware vCenter and create Json script on it**
 ```
  govc import.spec photon-3-v1.17.3_vmware.2.ova | jq '.Name="photon-3-v1.17.3_vmware.2"' | jq '.Name="photo0].Network="VM-Network"' > photon-3-v1.17.3_vmware.1.json
 ```
 
 
-7- Import the Photon OVA file to vCenter by JSON script;
+7- **Import the Photon OVA file to vCenter by JSON script;**
 ```
 govc import.ova -options=photon-3-v1.17.3_vmware.1.json photon-3-v1.17.3_vmware.2.ova
 ```
 
-8- Must be also complete on Proxy OVA File with the same-step;
+8- **Must be also complete on Proxy OVA File with the same-step;**
 
 
 Don't forget do tag follows below as OVA template with GOVC CLI
