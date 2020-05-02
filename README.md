@@ -129,7 +129,7 @@ Hello from Docker!!!!
 This message shows that your installation appears to be working correctly !!
 ```
 
-5- **Create a Blank-Text with .json script file**
+5- **Create a Blank-Text with .Json script file**
 
 ```
 root@keremcontrollervm:/home/keremc# cat keremvc.gov
