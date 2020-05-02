@@ -42,7 +42,7 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
 
 ## Instructions on VMware Tanzu Kubernetes Grid using Kubernetes & Pivotal Concepts
 
-1- *The following needs to be Have and Downloaded:*
+1- **The following needs to be Have and Downloaded:**
 ```
 Photon v3 Kubernetes v1.17.3 OVA File for Linux
 **********
@@ -53,7 +53,7 @@ Photon v3 Capv Haproxy v0.6.3 OVA File for Linux
   
   
 
-2- *Install Govc for Linux :*
+2- **Install Govc for Linux :**
 ```
 wget https://github.com/vmware/govmomi/releases/download/v0.22.1/vc_linux_amd64.gz
 root@keremcontrollervm:/home/keremc# gzip -d govc_linux_amd64.gz
@@ -135,7 +135,7 @@ export GOVC_RESOURCE_POOL='*/Resources'
 export GOVC_DATACENTER=Datacenter
 ```
 
-6- **Let's make pre-setup to connect to VMware vCenter and create Json script on it**
+6- **Let's make pre-setup to connect to VMware vCenter and create Json script on it:**
 ```
  govc import.spec photon-3-v1.17.3_vmware.2.ova | jq '.Name="photon-3-v1.17.3_vmware.2"' | jq '.Name="photo0].Network="VM-Network"' > photon-3-v1.17.3_vmware.1.json
 ```
@@ -155,17 +155,17 @@ govc vm.markastemplate photon-3-v1.17.3
 govc vm.markastemplate photon-3-capv-haproxy-v0.6.3
 ```
 
-9- Extract Tanzu TKG CLI file move to under path /usr/loca/bin/ 
+9- **Extract Tanzu TKG CLI file move to under path /usr/loca/bin/**
 ```
 mv tkg-linux-amd64-v1.0.0_vmware.1 /usr/local/bin/tkg
 ```
 
-10- Use SSH connection with the following tunneling by Putty to start a Tanzu Kubernetes GUI for Browser
+10- **Use SSH connection with the following tunneling by Putty to start a Tanzu Kubernetes GUI for Browser**
 ```
 tkg init --ui
 ```
 
-11- And now You are ready to Install VMware Tanzu Kubernetes Grid Page from Chrome/FireFox
+11- **And now You are ready to Install VMware Tanzu Kubernetes Grid Page from Chrome/FireFox**
 ```
 http://127.0.0.1/#/ui
 ```
@@ -174,7 +174,7 @@ http://127.0.0.1/#/ui
   ![aws-diagram](images/3.JPG)
 
 
-12- Go with Step by Step Deploy Management Cluster on vSphere  ;
+12- **Go with Step by Step Deploy Management Cluster on vSphere;**
 
   ![aws-diagram](images/2.JPG)
 
@@ -198,10 +198,10 @@ http://127.0.0.1/#/ui
 
 - Choose your specify the OS Template or ISO (You can quick-skip it this step with Next)
 
-13- Please Review your all Tanzu & Kubernetes Configurations and Deploy & Enjoy ! :)
+13- **Please Review your all Tanzu & Kubernetes Configurations and Deploy & Enjoy ! :)**
 
 
-14- Let's Show and Check Tanzu Kubernetes Cluster in VMware vSphere
+14- **Let's Show and Check Tanzu Kubernetes Cluster in VMware vSphere**
 ```
 tkg get management-cluster
 kubectl get nodes
@@ -212,7 +212,7 @@ kubectl get nodes
 tkg create cluster MyFirstTanzuCluster --plan=DevOps --worker-machine-count=4
 ```
   
-15-As Straight-Forward we will create a cool small Hello-World page on the VMware Tanzu K8s Grid for Test.
+15-**As Straight-Forward we will create a cool small Hello-World page on the VMware Tanzu K8s Grid for Test.**
 ```
 tkg create cluster Hello-Tanzu-From-Kerem --plan prod --kubernetes-version v1.18.3_vmware.2 --controlplane-machine-count 1 --worker-machine-count 1
 ```
