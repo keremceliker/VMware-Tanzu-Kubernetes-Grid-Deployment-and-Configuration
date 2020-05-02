@@ -1,4 +1,4 @@
-# Quick Deployment and Configuration VMware Tanzu Kubernetes Grid using Docker Container !
+# Quick Deployment VMware Tanzu Kubernetes Grid using Docker Container !
 *Written by Kerem ÇELİKER*
 - Twitter: **`@CloudRss`**
 - Linkedin: **`linkedin.com/in/keremceliker`**
