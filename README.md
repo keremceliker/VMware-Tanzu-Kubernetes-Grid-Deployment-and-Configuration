@@ -40,6 +40,11 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
   - Install latest version of Kubernetes [KubeCtl - Kubernetes CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
 
+## Infrastructure Diagram on VMware Tanzu Kubernetes Grid using Docker for DevOps and Cloud Processes
+
+![aws-diagram](images/Diagram1.png)
+
+
 ## Instructions on VMware Tanzu Kubernetes Grid using Kubernetes & Pivotal Concepts
 
 1- **The following needs to be Have and Downloaded:**
