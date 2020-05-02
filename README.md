@@ -129,8 +129,8 @@ Hello from Docker!!!!
 This message shows that your installation appears to be working correctly !!
 ```
 
+5- **Create a Blank-Text with .json script file**
 
-5- **Create a Blank-Text with *.json script file**
 ```
 root@keremcontrollervm:/home/keremc# cat keremvc.gov
 export GOVC_URL=https://192.168.1.3
