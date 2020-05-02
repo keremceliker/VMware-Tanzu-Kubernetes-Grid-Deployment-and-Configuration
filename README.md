@@ -50,10 +50,11 @@ root@keremcontrollervm:/home/keremc# mv govc_linux_amd64 /usr/local/bin/govc
 ```
 
 3- *Install Tanzu TKG Tool for Linux :*
-
+```
 wget https://github.com/vmware/govmomi/releases/download/tkg-linux-amd64-v1.0.0_vmware.1.gz
 
 **Follow the above same-steps as Govc
+```
 
   ![aws-diagram](images/3.JPG)
   
