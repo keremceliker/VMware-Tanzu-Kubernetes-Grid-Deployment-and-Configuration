@@ -205,7 +205,6 @@ http://127.0.0.1/#/ui
 tkg get management-cluster
 kubectl get nodes
 ```
-  ![aws-diagram](images/3.JPG)
 
 - If you have no any Tanzu Kubernetes Cluster as Worker Machine after step 12, just follow the command below for Troubleshoot;
 ```
