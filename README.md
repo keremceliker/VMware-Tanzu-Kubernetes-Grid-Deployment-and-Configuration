@@ -30,12 +30,22 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
 
 ## Instructions on VMware Tanzu Kubernetes Grid using Kubernetes & Pivotal Concepts
 
-1- The following needs to be Have and Downloaded:
+1.1)The following needs to be Have and Downloaded:
 ```
 Photon v3 Kubernetes v1.17.3 OVA File for Linux
 **********
 Photon v3 Capv Haproxy v0.6.3 OVA File for Linux
 ```
+
+1.2)*Links for Pre-Requisites:*
+
+  -	Install latest version of  [Git bash](https://git-scm.com/downloads)
+  -	Install latest version of [VMware Workstation](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html)
+  -	Install latest version of  [Visual Studio Code](https://code.visualstudio.com/download)
+  - Install latest version of [Terraform CLI by HashiCorp](https://www.terraform.io/downloads.html)
+  - Install latest version of [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+  - Install latest version of Kubernetes [KubeCtl - Kubernetes CLI](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
+  - Install latest version of Kubernetes [Kops - Kubernetes CLI](https://github.com/kubernetes/kops/releases)
 
   ![aws-diagram](images/3.JPG)
   
