@@ -10,6 +10,8 @@ The most important thing is DevOps & DevCloud teams can create their Kubernetes 
 
 In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (Pivotal) and Integrate into VMware ESXi Infrastructure with Kubernetes.
 
+TKG offers automatic Kubernetes K8s installation to provide a consistent experience to different clouds (Amazon AWS and vSphere) using ClusterAPI.
+
 
   ![aws-diagram](images/1.JPG)
   
