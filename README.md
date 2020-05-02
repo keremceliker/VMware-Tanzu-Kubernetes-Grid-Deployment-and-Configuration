@@ -182,7 +182,7 @@ http://127.0.0.1/#/ui
 
 - Set your IaaS Provider Informations as SSH Key,Username-Password.
 
-- Select and Input your Control-Plane, Instance Type as Development or Prod, MGMT Cluster Name and Load-Balancer API Server
+- Select and Input your `Control-Plane, Instance Type` as Development or Prod, MGMT Cluster Name and Load-Balancer API Server
    
    *Just skip Production Section for now :-) Ha-Proxy OVA template that will do as the load balancer for management plane on Kubernetes.
    
@@ -191,14 +191,14 @@ http://127.0.0.1/#/ui
 
 - Consider your VM-Resources Pool as Pool-Name with Path and Folder/DataStore
 
-- Make sure Kubernetes run in the correct Network VXLAN and Adapter as Pod/Worker Nodes
+- Make sure Kubernetes run in the correct `Network VXLAN and Adapter as Pod/Worker` Nodes
 
   ![aws-diagram](images/4.JPG)
   
 
 - Choose your specify the OS Template or ISO (You can quick-skip it this step with Next)
 
-13- **Please Review your all Tanzu & Kubernetes Configurations and Deploy & Enjoy ! :)**
+13- **Please Review your all Tanzu & Kubernetes Configurations and `Deploy & Enjoy !` :)**
 
 
 14- **Let's Show and Check Tanzu Kubernetes Cluster in VMware vSphere**
@@ -207,7 +207,7 @@ tkg get management-cluster
 kubectl get nodes
 ```
 
-- If you have no any Tanzu Kubernetes Cluster as Worker Machine after step 12, just follow the command below for Troubleshoot;
+- If you have no any Tanzu Kubernetes Cluster as Worker Machine after step 12, just follow the command below for `Troubleshoot`;
 ```
 tkg create cluster MyFirstTanzuCluster --plan=DevOps --worker-machine-count=4
 ```
