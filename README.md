@@ -59,9 +59,8 @@ wget https://github.com/vmware/govmomi/releases/download/v0.22.1/vc_linux_amd64.
 root@keremcontrollervm:/home/keremc# gzip -d govc_linux_amd64.gz
 root@keremcontrollervm:/home/keremc# chmod +x govc_linux_amd64
 root@keremcontrollervm:/home/keremc# mv govc_linux_amd64 /usr/local/bin/govc
-
- ![aws-diagram](images/5.JPG)
 ```
+ ![aws-diagram](images/5.JPG)
 
   ![aws-diagram](images/3_govc.JPG)
 
