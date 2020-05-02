@@ -17,6 +17,8 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
 
 ## Pre-Requisites
 
+1.1) *Introductions:*
+
 - Ubuntu or RedHat Linux Server (I prefer to have it but you can go on Windows10 if you wonder)
 - VMware Tanzu "TKG-CLI" will be installed
 - Govc CLI needs to be configured it.
@@ -28,14 +30,6 @@ In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (P
 - Putty
 - PuttyGen
 
-## Instructions on VMware Tanzu Kubernetes Grid using Kubernetes & Pivotal Concepts
-
-1.1)The following needs to be Have and Downloaded:
-```
-Photon v3 Kubernetes v1.17.3 OVA File for Linux
-**********
-Photon v3 Capv Haproxy v0.6.3 OVA File for Linux
-```
 
 1.2)*Links for Pre-Requisites:*
 
@@ -46,6 +40,17 @@ Photon v3 Capv Haproxy v0.6.3 OVA File for Linux
   - Install latest version of [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
   - Install latest version of Kubernetes [KubeCtl - Kubernetes CLI](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html)
   - Install latest version of Kubernetes [Kops - Kubernetes CLI](https://github.com/kubernetes/kops/releases)
+
+
+
+## Instructions on VMware Tanzu Kubernetes Grid using Kubernetes & Pivotal Concepts
+
+1- *The following needs to be Have and Downloaded:*
+```
+Photon v3 Kubernetes v1.17.3 OVA File for Linux
+**********
+Photon v3 Capv Haproxy v0.6.3 OVA File for Linux
+```
 
   ![aws-diagram](images/3.JPG)
   
