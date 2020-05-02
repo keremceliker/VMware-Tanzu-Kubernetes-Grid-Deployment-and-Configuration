@@ -182,7 +182,7 @@ http://127.0.0.1/#/ui
 
 - Set your IaaS Provider Informations as SSH Key,Username-Password.
 
-- Select and Input your `Control-Plane, Instance Type` as Development or Prod, MGMT Cluster Name and Load-Balancer API Server
+- Select and Input your `Control-Plane, Instance Type` as Development or Prod, `MGMT Cluster Name and Load-Balancer API` Server
    
    *Just skip Production Section for now :-) Ha-Proxy OVA template that will do as the load balancer for management plane on Kubernetes.
    
