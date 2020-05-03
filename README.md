@@ -4,10 +4,10 @@
 - Linkedin: **`linkedin.com/in/keremceliker`**
 - Blog: **`www.keremceliker.com`**
 
-- Q1) Where do you start ? 
-- Q2) Build a cluster from scratch and How hard is it to repeat ? 
-- Q3) It still easily manageable and scalable ?
-- Q4) Ready to build an applications with velocity to run in a Cloud-Native Environment ?
+**Q1) Where do you start ?**
+**Q2) Build a cluster from scratch and How hard is it to repeat ?**
+**Q3) It still easily manageable and scalable ?**
+**Q4) Ready to build an applications with velocity to run in a Cloud-Native Environment ?**
 
 In this article, I will show and provide you all the follows answers above also ll introduce "how to start & install easily "VMware Tanzu Kubernetes Grid (Pivotal) and Integrate into VMware ESXi Infrastructure on Kubernetes with a technical overview on automated multi-cluster operations"
 
