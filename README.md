@@ -36,6 +36,7 @@ TKG offers automatic Kubernetes K8s installation to provide a consistent experie
 	*As part of the TKG Cli deployment, it creates a OnPrem Kubernetes Cluster on the VMware Guest and uses it to attach the boot-strap to the target Tanzu Kubernete Grid.
 - VMware vSphere ESXi 7
 - VMware Cloud Foundation 4 (Nice to Have!)
+- Vmware vCenter
 - Python3 Tool
 - Putty
 - PuttyGen
