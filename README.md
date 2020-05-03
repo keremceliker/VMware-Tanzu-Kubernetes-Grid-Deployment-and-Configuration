@@ -4,11 +4,13 @@
 - Linkedin: **`linkedin.com/in/keremceliker`**
 - Blog: **`www.keremceliker.com`**
 
+Where do you start ? Build a cluster from scratch and How hard is it to repeat ? Is it still easily manageable and scalable ?
+
+In this article, I will show and provide you all the follows answers above also ll introduce "how to start & install easily "VMware Tanzu Kubernetes Grid (Pivotal) and Integrate into VMware ESXi Infrastructure on Kubernetes with a technical overview on automated multi-cluster operations"
+
 The vSphere 7 with Kubernetes and Tanzu Kubernetes Grid via TKG, which VMware has built into VCF 4.0 (VMware Cloud Foundation), were introduced in mid-April 2020 in accordance with vSphere 6.7, vSphere 7. It provides the Kubernetes environment, which PKS provides at a basic level, to manage the vSphere with Kubernetes very easily centrally from within vCenter. Also VCF 4.0 and vSphere 7 can be built-in vCenter 7 where vSphere with Kubernetes. 
 
 The most important thing is DevOps & DevCloud teams can create their Kubernetes clusters and work on their Kubernetes clusters through the CLI isolated from vCenter with the authority they want to have..
-
-In this article, I will show you how to install "VMware Tanzu Kubernetes Grid (Pivotal) and Integrate into VMware ESXi Infrastructure with Kubernetes.
 
 TKG offers automatic Kubernetes K8s installation to provide a consistent experience to different clouds (Amazon AWS and vSphere) using ClusterAPI.
 
@@ -237,5 +239,17 @@ Hello-Tanzu-From-Kerem-md-0-87y3t6p011-u2gbz         Ready    <none>   18h   v1.
 Hello-Tanzu-From-Kerem-md-0-87y3t6p011-hka5o         Ready    <none>   18h   v1.18+vmware.1
 Hello-Tanzu-From-Kerem-md-0-87y3t6p011-km7rx         Ready    <none>   18h   v1.18+vmware.1
 ```
+
+## References
+
+https://tanzu.vmware.com/
+
+https://tanzu.vmware.com/kubernetes-grid
+
+https://m.youtube.com/watch?v=BukxNlznftI
+
+
+
+
 
   
