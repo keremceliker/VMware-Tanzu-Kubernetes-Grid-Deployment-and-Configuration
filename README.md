@@ -240,6 +240,12 @@ Hello-Tanzu-From-Kerem-md-0-87y3t6p011-hka5o         Ready    <none>   18h   v1.
 Hello-Tanzu-From-Kerem-md-0-87y3t6p011-km7rx         Ready    <none>   18h   v1.18+vmware.1
 ```
 
+## Result
+
+Now both DevOps and SysOps Teams will be able to work together through the same single clustered-stack and easily provide Multi-API - Multi-Cloud integrations from an interface
+
+It looks Cool and Fun for sure, doesn't it ? :-)
+
 ## References
 
 https://tanzu.vmware.com/
