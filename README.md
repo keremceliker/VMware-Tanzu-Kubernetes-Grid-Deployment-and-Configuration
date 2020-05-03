@@ -251,6 +251,10 @@ Now both DevOps and SysOps Teams will be able to work together through the same 
 
 It looks Cool and Fun for sure, doesn't it ? :-)
 
+  ![aws-diagram](images/Tanzu_Cluster_Providers.JPG)
+
+
+
 ## References
 
 https://tanzu.vmware.com/
