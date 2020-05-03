@@ -4,6 +4,8 @@
 - Linkedin: **`linkedin.com/in/keremceliker`**
 - Blog: **`www.keremceliker.com`**
 
+
+
 1. **Where do you start ?**
 2. **Build a cluster from scratch and How hard is it to repeat ?**
 3. **It still easily manageable and scalable ?**
