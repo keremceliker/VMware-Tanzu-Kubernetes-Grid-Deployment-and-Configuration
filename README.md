@@ -219,8 +219,8 @@ http://127.0.0.1/#/ui
 
 14- **Let's Show and Check Tanzu Kubernetes Cluster in VMware vSphere**
 ```
-tkg get management-cluster
-kubectl get nodes
+root@kerem/keremc# tkg get management-cluster
+root@kerem/keremc# kubectl get nodes
 ```
 
 - If you have no any Tanzu Kubernetes Cluster as Worker Machine after step 12, just follow the command below for `Troubleshoot`;
@@ -235,8 +235,8 @@ tkg create cluster Hello-Tanzu-From-Kerem --plan prod --kubernetes-version v1.18
 
 - Let's take a short-look what's going on Kubernetes Cluster Inside.
 ```
-kubectl get nodes && kubectl config get-contexts
-tkg get cluster
+root@kerem/keremc# kubectl get nodes && kubectl config get-contexts
+root@kerem/keremc# tkg get cluster
 ```
 
 ```
